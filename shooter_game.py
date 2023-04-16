@@ -23,7 +23,7 @@ score = 0 #килы
 goal = 100 #килы для победы
 lost = 0 #пропуски врагов
 max_lost = 3 #пропуски врагов для проигрыша
-life = 3 #жизни
+life = 4 #жизни
 
 class GameSprite(sprite.Sprite):
     def __init__(self,player_image,player_x,player_y,size_x,size_y,player_speed):
